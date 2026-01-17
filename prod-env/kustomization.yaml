@@ -5,3 +5,5 @@ configMapGenerator:
   - name: my-app-values
     files:
       - values.yaml=production-values.yaml # Maps your file to a key
+    options:
+      disableNameSuffixHash: true
